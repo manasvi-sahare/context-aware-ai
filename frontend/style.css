@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: #eee;
+  padding: 20px;
+}
+
+#chat-box, #history-box {
+  border: 1px solid #444;
+  padding: 10px;
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.user { color: #4fc3f7; }
+.assistant { color: #81c784; }
+
+input {
+  width: 60%;
+  padding: 8px;
+}
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
